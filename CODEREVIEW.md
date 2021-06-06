@@ -2,6 +2,8 @@
 
 ---
 
+_[Part 2: Code Challenge](./CODEREVIEW.md)_
+
 _[Back to Readme](./README.md)_
 
 Review the following pull request. Code review is an important, but difficult skill. Be specific and concrete in your review comments (referencing line numbers, specific code snippets, etc).
