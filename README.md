@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## Just Utah Coders Code Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+_[Code Review](./CODEREVIEW.md)_
 
-In the project directory, you can run:
+An assessment sent by the above organization for a possible internship. The repository contains a markdown file analyzing the referenced code for the github repository referenced by the assignment (link above). Also a contact page based on the following requirements:
 
-### `yarn start`
+## PART 2 - Coding Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   Using HTML, CSS, and Javascript, create a web form for a Contact Us page. Use whichever framework you’re most comfortable with (React, Vue, jQuery, vanilla Javascript, etc).
 
-### `yarn test`
+-   Submit the project as either a link to a public Github repository, or a zip file attached to the email.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   The form must accept the following information and implement the following validations:
 
-### `yarn build`
+    -   The user’s name
+        -   Cannot be blank
+    -   Email
+        -   Cannot be blank AND must be a valid email address
+    -   Birth date
+        -   Can be blank
+        -   If not empty, the input must be a valid date
+    -   Agreement to be contacted
+        -   Must be checked
+    -   The form has a “submit” button that is disabled if any of the previous fields are invalid
+    -   The form has a “clear” button that clears the rest of the form
+    -   To submit the form, make an HTTP POST request to https://my-json-server.typicode.com/JustUtahCoders/interview-users-api/users with JSON as the HTTP request body. The JSON should look like the sample user shown here. You should receive an HTTP 200 in response to your request.
+    -   After the form is submitted, display a success message and clear the rest of the form
+    -   You may use any preexisting CSS framework or no framework
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+$ git clone https://github.com/cbass2404/just_utah_coders_assessment
+$ cd just_utah_coders_assessment
+$ npm install
+$ npm start
+```
