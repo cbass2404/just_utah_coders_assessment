@@ -2,7 +2,7 @@
 
 ---
 
-_[Part 2: Code Challenge](./CODEREVIEW.md)_
+_[Part 2: Code Challenge](./CODEREQUIREMENTS.md)_
 
 _[Back to Readme](./README.md)_
 
