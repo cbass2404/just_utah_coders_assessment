@@ -16,7 +16,7 @@ const ContactForm = () => {
             name: "name",
             placeholder: "Enter name",
             type: "text",
-            label: "Name:",
+            label: "Name",
             value: name,
             onChange: setName,
             errorMessage: "You must enter a name",
@@ -25,7 +25,7 @@ const ContactForm = () => {
             name: "email",
             placeholder: "Enter email",
             type: "text",
-            label: "Email:",
+            label: "Email",
             value: email,
             onChange: setEmail,
             errorMessage: "You must enter an email",
@@ -34,7 +34,7 @@ const ContactForm = () => {
             name: "birthdate",
             placeholder: null,
             type: "date",
-            label: "Birthdate:",
+            label: "Birth date",
             value: birthDate,
             onChange: setBirthDate,
             errorMessage: "You must enter a valid birthdate",
@@ -125,7 +125,7 @@ const ContactForm = () => {
 
     return (
         <div className="container" style={{ marginTop: 50, width: 400 }}>
-            <h2 className="center">Contact Request</h2>
+            <h2 className="center">Contact Us</h2>
             <form onSubmit={handleSubmit}>
                 {handleTextInputs()}
                 <div>
@@ -136,7 +136,7 @@ const ContactForm = () => {
                             checked={emailConsent}
                             onChange={() => setEmailConsent(!emailConsent)}
                         />
-                        <span>Do you agree to be contacted?</span>
+                        <span>I agree to be contacted via email.</span>
                     </label>
                     <div className="red-text">{error.emailConsent}</div>
                 </div>
